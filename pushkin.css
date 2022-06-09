@@ -1,0 +1,204 @@
+html, body {
+
+
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+
+/* видео фон */ 
+
+ background: url('menu.mp4');
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.videopush {
+  position: relative;
+  margin-left: 1%;
+ 
+  width: 69.3%;
+  height: 20%;
+  margin-top: 0%;
+ 
+  
+  opacity: 1;
+     background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+}
+
+
+
+
+
+
+
+
+/* ГРАДИЕНТ  */
+
+section#text {
+    max-width: 100%;
+ min-width: 70%;
+    opacity: 1;
+    background: linear-gradient(to right, #FFDDD6 21%, #FFF9ED 21%, #FFF9ED 80%, #DBDBDB 80% );
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 34px 116px 994px 116px;
+   
+
+
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+}
+
+
+/* конец градиента */
+
+
+/* иконка Пушкин */
+
+header div#pushkin {
+    opacity: 1;
+	text-indent: -10000px;
+	width: 134px;
+	height: 136px;
+	background: url('https://1.downloader.disk.yandex.ru/preview/b63640f4a62bba6f8869a85c061807c9138003edf43271048edd32270800c66b/inf/mtLG3-4v8KsjMTLuY917ajB7208bP_LmOpdDhDAHu1IJPfyVWIxqZnR2TeodhddrQ1t1rVG9gn8SMAn_4xqyyw%3D%3D?uid=437956321&filename=pushkin.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=437956321&tknv=v2&size=1600x822');
+	background-image: url(https://1.downloader.disk.yandex.ru/preview/b63640f4a62bba6f8869a85c061807c9138003edf43271048edd32270800c66b/inf/mtLG3-4v8KsjMTLuY917ajB7208bP_LmOpdDhDAHu1IJPfyVWIxqZnR2TeodhddrQ1t1rVG9gn8SMAn_4xqyyw%3D%3D?uid=437956321&filename=pushkin.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=437956321&tknv=v2&size=1600x822);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+	position: absolute;
+	left: 19px;
+	bottom: 0px;
+	z-index: 10;
+
+}
+
+/* конец иконки */
+
+
+
+
+
+/* Пушкинская карта текст с анимацией */
+
+
+section#text h1, section#text h1#page-title {
+  max-width: 100%;
+ min-width: 1%;
+ margin-top: 50%;
+
+
+    opacity: 1;
+   
+    font-style: oblique;
+    font-weight: 700;
+    color: #000000;
+    line-height: 100%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    color: rgba(255,0,0,0.1);
+    text-transform: uppercase;
+    background-size: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+
+  background-image: url(https://pocvetam.ru/wp-content/uploads/2020/08/kartinka-3-–-sushchestvuet-neskolko-sortov-chernyh-roz-kazhdyj-iz-kotoryh-otlichaetsja-unikalnym-vneshnim-vidom.jpg);
+  -webkit-background-clip: text;
+  animation: background-text-animation 15s linear infinite;
+}
+@keyframes background-text-animation {
+  0%{
+    background-position: left 0px top 50%;
+  }
+  50%{
+    background-position: left 1500px top 50%;
+  }
+  100%{
+    background-position: left 0px top 50%;
+  }
+}
+
+
+/* Конец текста и анимации */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Курсор мышки */
+
+
+
+body {
+    cursor: url('mouse.cur'), auto;
+}
+.link:hover {
+    cursor: url('/путь к файлу/sword.cur'), auto;
+}
+.link:hover {
+    cursor: w-resize;
+}
+
+
+
+/* Конец курсора мышки */ 
+
+
+
+
+
+.foto {
+  opacity: 1;
+  position: absolute;
+  margin-left: 21%;
+  width: 59%;
+  height: 83%;
+}
