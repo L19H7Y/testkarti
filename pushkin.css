@@ -202,3 +202,15 @@ body {
   width: 59%;
   height: 83%;
 }
+
+
+
+
+
+header div#find-link {
+	left: 50%;
+	width: 25%;
+	bottom: 89px;
+	margin-left: 45px;
+	font-style: italic;
+}
