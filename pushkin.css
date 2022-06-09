@@ -718,3 +718,41 @@ header {
 	position: relative;
 }
 	
+
+header>div.holder>div {
+	position: absolute;
+}
+
+header a {
+	color: #ffffff;
+}
+
+header div#tyutchev {
+	text-indent: -10000px;
+	width: 134px;
+	height: 136px;
+	background: url('tyutchev.png');
+	position: absolute;
+	left: 19px;
+	bottom: 0px;
+	z-index: 10;
+}
+
+header div#logo {
+	text-indent: -10000px;
+	width: 322px;
+	height: 69px;
+	background: url('logo.png');
+	position: absolute;
+	left: 137px;
+	bottom: 45px;
+}
+
+header div#logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
