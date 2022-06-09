@@ -705,4 +705,16 @@ body.optics-colors-black nav.submenu-menu-index > ul > li > a,
 body.optics-colors-black nav.submenu-menu-index > ul > li > a:hover,
 body.optics-colors-black div#subpage-image div#subpage-image-wrapper div.subpage-image-slide
 
+
+
+
+
+
+header {
+	width: 100%;
+	background: #12b362;
+	color: #ffffff;
+	height: 144px;
+	position: relative;
+}
 	
